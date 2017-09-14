@@ -1,0 +1,2 @@
+rootProject.name = 'sample-app-4-jenkins-pipeline'
+include ':module'
