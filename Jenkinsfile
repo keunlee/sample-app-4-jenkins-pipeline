@@ -24,7 +24,7 @@ node {
     }
 
     stage('Deploy') {
-
+        sh 'echo "cf push -f manifest"'
     }
 
     stage('Run Integration Tests') {
